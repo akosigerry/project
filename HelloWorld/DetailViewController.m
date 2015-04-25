@@ -34,9 +34,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     UIButton *aButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [aButton setTitle:@"Say Hello" forState:UIControlStateNormal];
     aButton.frame = CGRectMake(100.0, 200.0, 120.0, 40.0);
+    
+    
     [self configureView];
 }
 
